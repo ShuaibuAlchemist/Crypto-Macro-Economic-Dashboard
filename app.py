@@ -104,7 +104,7 @@ API_KEY = os.getenv("GECKO_KEY")
 # --------------------
 # Data Loader
 # --------------------
-data_dir = data_dir = Path(__file__).parent
+data_dir = Path(r"D:\My folder\Crypto-Macro-Economic-Dashboard\dashboard")
 
 files = {
     "CPI": "cpi_data.csv",
