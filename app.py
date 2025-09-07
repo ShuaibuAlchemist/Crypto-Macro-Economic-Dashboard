@@ -104,7 +104,7 @@ API_KEY = os.getenv("GECKO_KEY")
 # --------------------
 # Data Loader
 # --------------------
-data_dir = Path(__file__).parent
+data_dir = Path(__file__).parent / "dashboard"
 
 files = {
     "CPI": "cpi_data.csv",
