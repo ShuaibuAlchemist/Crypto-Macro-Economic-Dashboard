@@ -92,7 +92,7 @@ with st.expander("ℹ️ About this Dashboard"):
         - Compare multiple coins (BTC, ETH, SOL, …)  
         - Correlation explorer between variables  
         
-        ✅ Built with Streamlit, Python, and CoinGecko API  
+        ✅ Built with Streamlit, Python, and CoinGecko API 
         """
     )
 
@@ -104,7 +104,7 @@ API_KEY = os.getenv("GECKO_KEY")
 # --------------------
 # Data Loader
 # --------------------
-data_dir = Path(r"D:\My folder\Crypto-Macro-Economic-Dashboard\dashboard")
+data_dir = Path(__file__).parent
 
 files = {
     "CPI": "cpi_data.csv",
